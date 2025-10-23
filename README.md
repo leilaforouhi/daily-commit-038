@@ -1,2 +1,7 @@
-# daily-commit-038
-My thirty-eighth daily GitHub activity repository
+def count_words(text):
+    words = text.split()
+    return len(words)
+
+if __name__ == "__main__":
+    sample = "GitHub daily commits keep me consistent"
+    print(f"Word count: {count_words(sample)}")
