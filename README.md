@@ -1,5 +1,5 @@
 def count_words(text):
-    words = text.split()
+    words = text.spli()
     return len(words)
 
 if __name__ == "__main__":
